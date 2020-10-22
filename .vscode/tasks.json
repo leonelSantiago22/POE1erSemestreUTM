@@ -19,8 +19,7 @@
                 "problemMatcher" : [
                     "$gcc"
                 ],
-            "group": "build"
-          
+            "group": "build" 
         }
     ]
 }
