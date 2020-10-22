@@ -17,10 +17,13 @@ int main (int argc, char** argv){
         
     if (num1==num2)     printf("Los numero %d y %d son iguales \n", num2, num1);   // Comparamos si los numeros son iguales 
     
-    if (num1>=num2)     printf("El primer numero %d es mayor o igual a %d \n", num1, num2);    
+    if (num1>=num2)     printf("El primer numero %d es mayor o igual a %d \n", num1, num2); //comparamos si el numero es mayor eh igual
     
-    if (num1<=num2)     printf("El primer numero %d es menor o igual a %d \n", num1, num2);
+    if (num1<=num2)     printf("El primer numero %d es menor o igual a %d \n", num1, num2); //comparamos si el numero es menor o igual
 
+    if (num1!=num2)     printf("Los numeros %d y %d son diferentes",num1, num2); //comprobamos si los numeros son diferentes
+    
+    
     system("pause");
     getchar();
     return 0;
