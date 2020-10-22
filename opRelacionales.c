@@ -3,7 +3,7 @@
 
     int num1, num2; //declaracion de ambas variables 
 
-int main (){
+int main (int argc, char** argv){
     //solicitamos los dos numeros enteros 
     printf("Introduzca dos numeros enteros : \n");
     scanf("%d", &num1);

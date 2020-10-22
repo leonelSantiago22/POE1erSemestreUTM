@@ -4,7 +4,7 @@
 
     int n1,n2,n3,n4,n5; //declaracion de variables 
 
-int main (){
+int main (int argc, char** argv){
     printf("Ingrese 5 numeros: \n"); //ingresamos los 5 numeros para comparar 
     scanf("%d", &n1);
     scanf("%d", &n2);
