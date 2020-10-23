@@ -1,6 +1,7 @@
 //es la clase del 22 de octubre del 2020 
 
 //  Aprobado o no aprobado 
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -13,8 +14,7 @@ int main (){
 
     if (a>=6)
     
-        printf("    ******Felicidades aprobaste****** \n");
-
+        printf("******Felicidades aprobaste** \n");
     else
     
         printf("no aprobaste:'c \n");

@@ -1,0 +1,5 @@
+
+
+    float a;
+
+int main (){
