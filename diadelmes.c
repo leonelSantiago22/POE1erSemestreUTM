@@ -17,7 +17,7 @@ int main() {
                 case 'd': case'D': domi=1, lu=2, ma=3, mi=4, ju=5, vi=6, sa=7; break;
                 default: printf("\nNo es un dia valido\n");system("pause");return 0;
                 }//fin del switch
-         printf("\n ingresa la fecha que quieres consultar del [1-30]:");
+        printf("\n ingresa la fecha que quieres consultar del [1-30]:");
         scanf("%d", &fecha);
         if ( fecha>=1 && fecha<=30 ){
             for (int  i = 0; i <=30; i++){
