@@ -6,7 +6,9 @@ int matricula;
 char nombre[60];
 float cal1 ,cal2, cal3, calfi;
 int option=0;
-void menu(), agregar_alumno(), mostrar_datos();
+void menu(), agregar_alumno(), mostrar_datos(), modificar();
+int ma;
+char nombre2[60];
 int main ()
 {
     do{
@@ -16,7 +18,7 @@ int main ()
     switch (option)
     {
     case 1: agregar_alumno(); break;
-    case 2: break;
+    case 2: modificar(); break;
     case 3: mostrar_datos();break;
     case 4: option=4; break;
     default: printf("\nOpcion no valida\n");
@@ -50,11 +52,28 @@ void agregar_alumno(){
     scanf("%f", &calfi);
 }
 void mostrar_datos(){
-    printf("\n--------------Datos Del alumno---------\n")
+    printf("\n--------------Datos Del alumno---------\n");
     printf("\nMatricula: %d ",matricula);
     printf("\nNombre: %s", nombre);
     printf("\nCalificacion1: %.2f", cal1);
     printf("\nCalificacion2: %.2f", cal2);
     printf("\nCalificacion3: %.2f", cal3);
     printf("\nCalificacionFinal: %.2f \n", calfi);
+}
+
+void modificar(){
+    printf("\n Ingresa '0' para no modificar");
+    printf("\nIngresa la nueva matricula: ");
+    scanf("%d", &ma);
+    if (ma==0){
+        matricula=matricula;
+    }else {   
+        matricula=ma;}
+    printf("\n Modificar tu nombre: ");
+    scanf("%s", nombre2);
+    if ( nombre2=="0"){
+        nombre[60]= nombre[60];
+    }else{    
+     nombre[60] =nombre2[60];
+     }
 }
