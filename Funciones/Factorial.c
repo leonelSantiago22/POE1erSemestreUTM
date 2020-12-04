@@ -1,30 +1,29 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
+unsigned long int  factorial();
+unsigned long int factorial_recursivo();
 
-int  factorial();
-int factorial_recursivo();
-
-int n=5;
+int n;
 int main(){
-    int r=(int) factorial(n);
-    int rc= factorial_recursivo();
-    printf("\n el factorial de %d es igual a %d",n, r);
-    printf("\n De manera recursiva %d \n ", rc);
-
+    printf("ingresa un numero para sacar su factorial : ");
+    scanf("%ld", &n);
+    printf("\n el factorial (iterativo) de %d es igual a %ld",n, factorial(n));
+    printf("\n el factotial  De manera recursiva %ld \n ",factorial_recursivo(n));
     system("pause");
     return 0;
 }
-int factorial(int n){
-    int resultado =1;
+
+unsigned long int factorial( int n){
+  unsigned long  int resultado = 1;
     int i = 0;
     for (int i = 1; i <=n ; i++){
-        resultado *=i;
+        resultado *= i;
     }
     return resultado;
 }
 
-int factorial_recursivo(int n){    // Se resuelvw el factorial de manera recursiva 
+unsigned long int factorial_recursivo( int n){    // Se resuelve el factorial de manera recursiva 
     if (n== 0){
         return 1;
     }else   {

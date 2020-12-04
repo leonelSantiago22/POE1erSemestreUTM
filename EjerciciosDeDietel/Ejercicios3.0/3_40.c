@@ -5,16 +5,16 @@
 #include <stdio.h>
 int c ;
 int main(){
-printf("Ingresa cualquier numero para iniciar: ");
-scanf("%d", &c);
-c = 1;
-for (int i = 0; i <=7 ; i++){
-    if ( i%2){
+int cd =1;
+for (int i = 0; i <=10 ; i++){
+    for (int  i = 1; i <=(21-cd)/2; i++)    
+    {
         printf(" ");
     }
-            for (int i = 0; i <=7 ; i++){
-                printf("*  ");
+            for (int i = 1; i <=cd ; i++){
+                printf("*");
             } 
+            cd +=2;
     printf("\n");
 }
 printf("\n");
