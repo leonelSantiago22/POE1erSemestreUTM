@@ -43,5 +43,9 @@ int main(){
     printf("\n 10  se repite %d", n10);
     printf("\n 11  se repite %d", n11);
     printf("\n 12  se repite %d", n12);
+
+    getchar();
+    return 0; 
+
 }
 
