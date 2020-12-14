@@ -18,16 +18,16 @@ int main(){
     long long ll; 
     double y= 3.15;
     long double ld;
-    printf("El tamanio char c:\t %u, %u \n", sizeof(c), sizeof(char));
-    printf("El tamanio de shotr: \t %u, %u \n", sizeof(s), sizeof(short));
-    printf("El tamanio de int : \t %u, %u \n", sizeof(i), sizeof(int));
-    printf("El tamanio de long : \t %u, %u \n", sizeof(l), sizeof(long));
-    printf("El tamanio de long long : \t %u, %u \n", sizeof(ll), sizeof(long long ));
-    printf("Variable Float:\t %u, %u\n", sizeof(x), sizeof(float));
-    printf("Arreglo Float:\t %u, %u\n ", sizeof(array), get_size(array));
-    printf("Variable de double:\t %u, %u \n", sizeof(y), sizeof(double));
-    printf("Arreglo de double: \t %u, %u\n ", sizeof(array2), get_size3(array2));
-    printf("Variable de long double:\t %u, %u \n", sizeof(ld), sizeof(long double));
+    printf("El tamanio char c:              \t %u, %u\n", sizeof(c),   sizeof(char));
+    printf("El tamanio de shotr:            \t %u, %u\n", sizeof(s),   sizeof(short));
+    printf("El tamanio de int :             \t %u, %u\n", sizeof(i),   sizeof(int));
+    printf("El tamanio de long :            \t %u, %u\n", sizeof(l),   sizeof(long));
+    printf("El tamanio de long long :       \t %u, %u\n", sizeof(ll),  sizeof(long long ));
+    printf("Variable Float:                 \t %u, %u\n", sizeof(x),    sizeof(float));
+    printf("Arreglo Float:                  \t %u, %u\n",sizeof(array), get_size(array));
+    printf("Variable de double:             \t %u, %u\n", sizeof(y),   sizeof(double));
+    printf("Arreglo de double:              \t %u, %u\n",sizeof(array2), get_size3(array2));
+    printf("Variable de long double:        \t %u, %u\n", sizeof(ld),  sizeof(long double));
     //printf("Variable de Entero:\t %u, %u \n", sizeof(arrar_int), sizeof(p));
     return 0;
 }
