@@ -139,7 +139,7 @@ void pascientes_imprimir(){
     printf("\nCurp:                \t%d",   curp[i-1]);
     printf("\nNombre:              \t%s",   nombres[i-1]);
     printf("\nEstado Del pasciente:\t%s",   estado[i-1]);
-    printf("\nEdad                  \t%d",edad[i-1]);
+    printf("\nEdad                  \t%d",  edad[i-1]);
     printf("\nNum. de Familiares    \t%d",  integrantes_familiares[i-1]);
     printf("\nDireccion:            \t%s",  direccion[i-1]);
     printf("\nEfectividad del tratamiento: \t%s\n", tratamiento[i-1]);
@@ -168,12 +168,12 @@ void modificar_datos(){//Menu para modificar Datos del pasciente
     {
         switch (op)
         {
-        case 1:  modificar_datos_nombre();  break;
-        case 2:  modificar_datos_curp();break;
-        case 3:  modificar_datos_edad(); break;
-        case 4:  modificar_datos_estado(); break;
+        case 1:  modificar_datos_nombre();      break;
+        case 2:  modificar_datos_curp();        break;
+        case 3:  modificar_datos_edad();        break;
+        case 4:  modificar_datos_estado();      break;
         case 5:  modificar_datos_integrantes(); break;
-        case 6:  modificar_datos_direccion(); break;
+        case 6:  modificar_datos_direccion();   break;
         case 7:  modificar_datos_efectividad(); break;
         case 8:op=8;       
         }

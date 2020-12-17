@@ -20,7 +20,7 @@ int main(){
     long double ld;
     printf("El tamanio char c:              \t %u, %u\n", sizeof(c),   sizeof(char));
     printf("El tamanio de shotr:            \t %u, %u\n", sizeof(s),   sizeof(short));
-    printf("El tamanio de int :             \t %u, %u\n", sizeof(i),   sizeof(int));
+    printf("El tamanio de int >>>>>>>>>:             \t %u, %u\n", sizeof(i),   sizeof(int));
     printf("El tamanio de long :            \t %u, %u\n", sizeof(l),   sizeof(long));
     printf("El tamanio de long long :       \t %u, %u\n", sizeof(ll),  sizeof(long long ));
     printf("Variable Float:                 \t %u, %u\n", sizeof(x),    sizeof(float));

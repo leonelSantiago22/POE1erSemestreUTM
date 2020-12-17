@@ -7,10 +7,8 @@
     float a;
 
 int main (){
-
     printf("Ingresa tu calificacion: ");
     scanf("%f", &a);
-
     if (a>=6)
     
         printf("    ******Felicidades aprobaste****** \n");
@@ -22,5 +20,4 @@ int main (){
     system("pause");
     getchar();
     return 0;
-
 }//llave de cierre 

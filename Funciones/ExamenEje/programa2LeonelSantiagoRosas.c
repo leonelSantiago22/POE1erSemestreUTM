@@ -42,11 +42,12 @@ la primera) y almacenar en 9*/
     Solo se puede modificar las líneas siguientes*/
 int  sumar(int arreglo[MAX]){
     int i, sumai=0;
-    for (i=1; i<=9; i++){
-        sumai += arreglo[i-1];
+    for (i=0; i<MAX; i++){
         //Solo puede declar una sentencia dentro del for 
+        arreglo [i%MAX] = arreglo[i%MAX] + arreglo[(i + 1)%MAX];
+        //arreglo[0%9] = arreglo[0] + arreglo[1];
+        //arreglo[9%10] = arreglo[9] + arreglo[0];
     }
-    printf("%d", sumai);
 }
 /*  Solo se puede modificar las líneas anteriores 
 ****************************************************************************************/

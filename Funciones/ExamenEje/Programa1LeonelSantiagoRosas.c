@@ -22,10 +22,10 @@ int main(void){
 */
 /* ***************************************************************************************
     Solo se puede modificar la línea siguiente*/
-    cubico(numero);
+    numero = cubico(numero);
 /*  Solo se puede modificar la línea anterior 
 ****************************************************************************************/
-    printf(" es: %d\n", cubico(numero));
+    printf(" es: %d\n",numero);
 }
 
 

@@ -42,7 +42,6 @@ void imprimir(int matriz[MAX][MAX]){
             printf("%d", matriz[j][i]);
             if (j<=3)
                 printf(", ");
-            
         }
         printf("\n");   
     }
