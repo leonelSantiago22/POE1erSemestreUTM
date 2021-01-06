@@ -6,18 +6,20 @@
 
 using namespace std;
 
-int main(){
-    int  a, b=0; 
-    float c;
-    cout<<"Ingrese un numero: \t";
-    cin>>a;
-    //cout<<" Ingrese otro numero: \t";
-    //cin>>b;
-    for (int  i = 1; i <=a; i++)
+int main()
+{
+    int salario = 5100, i=1, f=5100; 
+    //float suma;
+    while (i<=8)
     {
-        cout<<" \n"<<i;
-        b= b + i;
+        printf("\n salario de %d es: %d\t",i,salario);
+        salario*=.10;
+        salario= f +salario;
+        f = salario;
+        i++; 
     }
-    cout<<endl<<" La suma es: "<<b<< endl;
+    
+
+    getchar(); getchar();
     return 0;
 }

@@ -18,6 +18,7 @@ int main(){
 
     if (calorias != NULL ) // Condicion para saber si el apuntador contiene un valor 
     {
+        //printf("");
         leer_calorias(calorias, tamanno);
         //float resultado = promedio_calorias();
         printf("\n EL promedio de calorias consumidas en %d dias, es de: %.2f", tamanno, promedio_calorias(calorias, tamanno));
@@ -47,4 +48,7 @@ float promedio_calorias(int *a, int tam){//Calcular el promedio de calorias cons
         suma += *(a+i);
     }
     return (suma/ tam);
+
+
+
 }

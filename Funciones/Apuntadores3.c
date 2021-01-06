@@ -56,8 +56,8 @@ int main(){//Formas de acceder A los arreglos
     {
          printf("*b_ptr[%d] = %d\n", i, *(b_ptr+1));
     }
-    
 
+    
     printf("\nMinimo:\t%d", min);//Sabemos el valor minimo con indirreciones
     printf("\nMaximo:\t%d", max);//Valor de maximo con las indirecciones 
     return 0;
