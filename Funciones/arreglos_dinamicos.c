@@ -40,7 +40,6 @@ void leer_calorias(int *a, int tam){//Funcion para leer la cantidad de calorias 
 }
 
 
-
 float promedio_calorias(int *a, int tam){//Calcular el promedio de calorias consumidas
     float suma=0;
     for (int i = 0; i < tam; i++)
