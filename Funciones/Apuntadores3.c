@@ -77,6 +77,4 @@ int main(){//Formas de acceder A los arreglos
     return 0;
 
 
-
-
 }
