@@ -38,7 +38,7 @@ int i[1000];
 mi_estudiante grupo[100];//Almacena 100 elementos de tipo estudiante en la estructura estruct, guarda por ejemplo un estudiante con todas las variables de struct
 
 int main(){
-     mi_integercito= 1;
+     mi_integercito;
     int numeros[]={1,2,3,4,5};
 
     

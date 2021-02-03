@@ -1,0 +1,1 @@
+juguestes  =  (lista_juguestes *) malloc(cantidad * sizeof(lista_juguestes));
